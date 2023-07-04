@@ -17,17 +17,12 @@ header{
 
 main{
     height: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.c-hero{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5em;
+    gap: 3em;
 }
 
 .c-hero__image{
@@ -66,7 +61,7 @@ main{
 
 @media only screen and (max-width: 500px) {
 
-    .c-hero{
+    main{
         flex-direction: column;
         gap: 1em;
         justify-content: center;
